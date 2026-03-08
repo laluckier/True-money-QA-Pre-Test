@@ -1,0 +1,7 @@
+url_herokuapp: https://the-internet.herokuapp.com/login
+BrowserTimeout: 30s
+
+browser: chrome
+
+API:
+    url_potterapi: https://potterapi-fedeperin.vercel.app/en/houses
