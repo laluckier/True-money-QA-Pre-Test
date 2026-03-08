@@ -1,0 +1,42 @@
+Gryffindor:
+    house: Gryffindor
+    emoji: 🦁
+    founder: Godric Gryffindor
+    colors:
+    - red
+    - gold
+    animal: Lion
+    index: 0
+
+Hufflepuff:
+    house: Hufflepuff
+    emoji: 🦡
+    founder: Helga Hufflepuff
+    colors:
+    - yellow
+    - black
+    animal: Badger
+    index: 1
+
+Ravenclaw:
+    house: Ravenclaw
+    emoji: 🦅
+    founder: Rowena Ravenclaw
+    colors:
+    - blue
+    - yellow
+    animal: Raven
+    index: 2
+
+Slytherin:
+    house: Slytherin
+    emoji: 🐍
+    founder: Salazar Slytherin
+    colors:
+    - green
+    - silver
+    animal: Snake
+    index: 3
+
+response_404:
+    error: Invalid Index
