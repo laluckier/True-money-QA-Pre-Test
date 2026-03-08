@@ -11,7 +11,7 @@ TC001 Login success
     ...    when they put a correct username and password.
     login_page.Verify Elements On Login Page
     login_page.Login With Username And Password    ${users.valid}
-    login_page.Verify Login Status    ${msg_successful_login}
+    login_page.Verify Login Status    ${messages.successful.login}
     login_page.Logout And Verify That User Is Logged Out
 
 TC002 Login failed - Password incorrect
@@ -20,7 +20,7 @@ TC002 Login failed - Password incorrect
     ...    when they puta correct username but wrong password.
     login_page.Verify Elements On Login Page
     login_page.Login With Username And Password    ${users.incorrect_password}
-    login_page.Verify Login Status    ${msg_invalid_password}
+    login_page.Verify Login Status    ${messages.invalid.password}
 
 TC003 Login failed - Username not found
     [Tags]    TC003
@@ -28,4 +28,4 @@ TC003 Login failed - Username not found
     ...    when they put a username that did not exist.
     login_page.Verify Elements On Login Page
     login_page.Login With Username And Password    ${users.not_registered}
-    login_page.Verify Login Status    ${msg_invalid_username}
+    login_page.Verify Login Status    ${messages.invalid.username}
