@@ -1,0 +1,17 @@
+messages:
+    invalid:
+        username: Your username is invalid!
+        password: Your password is invalid!
+    successful:
+        login: You logged into a secure area!
+        logout: You logged out of the secure area!
+users:
+    valid:
+        username: tomsmith
+        password: SuperSecretPassword!
+    incorrect_password:
+        username: tomsmith
+        password: Password!
+    not_registered:
+        username: tomholland
+        password: Password!
